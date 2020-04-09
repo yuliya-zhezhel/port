@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.5f361e03.chunk.css",
-    "main.js": "/port/static/js/main.0721477d.chunk.js",
-    "main.js.map": "/port/static/js/main.0721477d.chunk.js.map",
+    "main.css": "/port/static/css/main.76de7c0a.chunk.css",
+    "main.js": "/port/static/js/main.d69e582b.chunk.js",
+    "main.js.map": "/port/static/js/main.d69e582b.chunk.js.map",
     "runtime-main.js": "/port/static/js/runtime-main.f296743f.js",
     "runtime-main.js.map": "/port/static/js/runtime-main.f296743f.js.map",
-    "static/js/2.cab4aad6.chunk.js": "/port/static/js/2.cab4aad6.chunk.js",
-    "static/js/2.cab4aad6.chunk.js.map": "/port/static/js/2.cab4aad6.chunk.js.map",
+    "static/js/2.9d2831bf.chunk.js": "/port/static/js/2.9d2831bf.chunk.js",
+    "static/js/2.9d2831bf.chunk.js.map": "/port/static/js/2.9d2831bf.chunk.js.map",
     "index.html": "/port/index.html",
-    "precache-manifest.9333208760422624934862fa2b93052e.js": "/port/precache-manifest.9333208760422624934862fa2b93052e.js",
+    "precache-manifest.8f9f6cbd2fbfd4e182bd40c73b4a7e02.js": "/port/precache-manifest.8f9f6cbd2fbfd4e182bd40c73b4a7e02.js",
     "service-worker.js": "/port/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/port/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.cab4aad6.chunk.js.LICENSE.txt": "/port/static/js/2.cab4aad6.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/port/static/media/logo.5d5d9eef.svg"
+    "static/css/main.76de7c0a.chunk.css.map": "/port/static/css/main.76de7c0a.chunk.css.map",
+    "static/js/2.9d2831bf.chunk.js.LICENSE.txt": "/port/static/js/2.9d2831bf.chunk.js.LICENSE.txt",
+    "static/media/logo-github.svg": "/port/static/media/logo-github.59c7b5e3.svg",
+    "static/media/logo-mail.svg": "/port/static/media/logo-mail.5328720b.svg",
+    "static/media/logo-skype.svg": "/port/static/media/logo-skype.a0f12d12.svg",
+    "static/media/logo-telegram.svg": "/port/static/media/logo-telegram.17063867.svg",
+    "static/media/App.scss": "/port/static/media/photo.f4baa100.png",
+    "static/media/portfolio-first.png": "/port/static/media/portfolio-first.295b63d1.png",
+    "static/media/portfolio2.png": "/port/static/media/portfolio2.86646d49.png",
+    "static/media/portfolio3.png": "/port/static/media/portfolio3.cb276f21.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f296743f.js",
-    "static/js/2.cab4aad6.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0721477d.chunk.js"
+    "static/js/2.9d2831bf.chunk.js",
+    "static/css/main.76de7c0a.chunk.css",
+    "static/js/main.d69e582b.chunk.js"
   ]
 }
