@@ -1,0 +1,224 @@
+.App {
+  color:white;
+  font-family: "Montserrat", sans-serif;
+/*  width: 100vh;*/
+  height: 100vw;
+/*  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;*/
+/*  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;*/
+
+  #container2 {
+    display: flex;
+/*    flex-direction: row;*/
+/*    width: 400vw;
+    transform: rotate(90deg) translateY(-100vh);*/
+   /* transform-origin: top left;*/
+  }
+ /* &::-webkit-scrollbar {
+    display: none;
+  }*/
+
+  .bg-image{
+    background: linear-gradient(111.43deg, #01AFBA 0.95%, #56076D 90.85%);
+  }
+
+  .first-slide{
+    background:  url("images/photo.png") no-repeat;
+    background-position: 70% 0;
+    background-size: contain;
+
+    &_inner{
+      max-width: 1333px;
+      width: 100%;
+      margin: 0 auto;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+  }
+  .box{
+    width: 100vw;
+    height: 100vh;
+  }
+  .second-slide{
+    background: linear-gradient(89.92deg, #56076D 0.05%, #54E8BB 99.95%);
+    &_inner{
+      max-width: 1440px;
+      width: 100%;
+      margin: 0 auto;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      .portfolio-first {
+        display: flex;
+        flex-direction: row;
+        margin: 70px 0 0 0;
+        &.revert{
+          flex-direction: row-reverse;
+          .portfolio-first_right{
+            margin-right:15%;
+          }
+        }
+        &_header{
+          font-size: 20px;
+          line-height: 24px;
+          font-weight: 600;
+          text-transform: uppercase;
+          margin: 0 0 20px 0;
+        }
+        &_description{
+          font-size: 14px;
+          line-height: 17px;
+          margin: 0 0 84px 0;
+          display: flex;
+          flex-direction: column;
+          a{
+            color: white;
+            text-decoration: none;
+            margin: 10px 0 0 0;
+          }
+        }
+        &_technologies-wrapp{
+          margin: 6px 0 0 0;
+        }
+        &_technologies-inner{
+          display: flex;
+          flex-direction: row;
+          margin: 0 0 20px 0;
+        }
+        &_technologies{
+          font-size: 20px;
+          line-height: 24px;
+          margin: 0 0 10px 0;
+          max-width: 240px;
+          width: 100%;
+        }
+        &_technologies-long{
+          max-width: 300px;
+          width: 100%;
+        }
+        &_technologies-name{
+          font-size: 14px;
+          line-height: 17px;
+          margin: 0 0 10px 0;
+        }
+        &_left {
+          display: flex;
+          flex-direction: column;
+          max-width: 700px;
+          width: 100%;
+        }
+
+        &_right {
+          display: flex;
+          flex-direction: column;
+          max-width: 700px;
+          width: 100%;
+
+          img {
+
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .third-slide{
+   background: linear-gradient(90deg, #54E8BB 0%, #56076D 100%);
+  }
+
+  .fourth-slide{
+    background: linear-gradient(90.56deg, #56076D 0.35%, #01AFBA 99.67%);
+  }
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 86px 0 0 0;
+
+    &_speciality{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 30px;
+      margin: 0 0 15px 0;
+    }
+    &_name{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 29px;
+    }
+    &_contact-info{
+     &_link{
+       font-family: 'Montserrat', sans-serif;
+       color:white;
+       font-size: 14px;
+       line-height: 17px;
+       text-decoration: none;
+       margin: 0 0 0 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+      &_item{
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        margin: 0 0 15px;
+      }
+    }
+  }
+  .main-technologies{
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+   &_portfolio{
+     font-weight: bold;
+     font-size: 288px;
+     line-height: 351px;
+      color: rgba(255, 255, 255, 0.08);
+    }
+    &_header{
+      font-size: 20px;
+      line-height: 24px;
+      margin: 0 0 15px 0;
+    }
+    &_header-item{
+      font-size: 14px;
+      line-height: 17px;
+      margin: 0 0 10px 0;
+    }
+
+  }
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

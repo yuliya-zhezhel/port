@@ -1,41 +1,47 @@
 import React from 'react';
-import logoSkype from './images/logo-skype.svg';
-import logoPhone from './images/logo-skype.svg';
-import logoMail from './images/logo-mail.svg';
-import logoGit from './images/logo-github.svg';
-import './App.css';
+import './App.scss';
+/*import Form from "./Form";*/
+import {SectionsContainer, Section, Header} from 'react-fullpage';
+import PortfolioSecond from "./PortfolioSecond";
+import PortfolioFirst from "./PortfolioFirst";
+import FirstSlide from "./FirstSlide";
+
+let options = {
+    sectionClassName: 'section',
+    anchors: ['sectionOne', 'sectionTwo', 'sectionThree'],
+    scrollBar: false,
+    navigation: true,
+    verticalAlign: false,
+    arrowNavigation: true,
+};
 
 function App() {
     return (
         <div className="App">
-            <header className="">
-                <div className="header-speciality">
-                    Frontend Developer
-                </div>
-                <div className="header-name">
-                    Yuliya Zhezhel
-                </div>
-
-            </header>
-            <div className="header_contact-info">
-                <div className="header_contact-info_skype">
-                    <img src={logoSkype} alt="logo-skype"/>
-                    <a href="skype:yuliya_zhezhel">yuliya_zhezhel</a>
-                </div>
-                <div className="header_contact-info_phone">
-                    <img src={logoPhone}  alt="logo-phone"/>
-                    <a href="tel:+375447401571">+375447401571</a>
-                </div>
-                <div className="header_contact-info_mail">
-                    <img src={logoMail} alt="logo-mail"/>
-                    <a href="mailto:yuliya.zhezhel@gmail.com">yuliya.zhezhel@gmail.com</a>
-                </div>
-                <div className="header_contact-info_git">
-                    <img src={logoGit} alt="logo-github"/>
-                    <a href="https://github.com/yuliya-zhezhel">Github</a>
-
-                </div>
-        </div>
+            <div id="container2">
+                <SectionsContainer {...options}>
+                    <Section class="section">
+                        <FirstSlide/>
+                    </Section>
+                    <Section>
+                        <PortfolioFirst/>
+                    </Section>
+                    <Section>
+                        <PortfolioSecond/>
+                    </Section>
+{/*                    <Section>
+                        <div className="box fourth-slide">
+                            <div className="contact_form">
+                                If you have any questions let me know
+                            </div>
+                            <Form/>
+                            <div className="main-technologies_portfolio">
+                                Contact
+                            </div>
+                        </div>
+                    </Section>*/}
+                </SectionsContainer>
+            </div>
         </div>
     );
 }
